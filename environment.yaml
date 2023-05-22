@@ -1,0 +1,7 @@
+name: taxonid
+channels:
+  - conda-forge
+dependencies:
+    - biopython
+    - brs_utils
+    - colored
