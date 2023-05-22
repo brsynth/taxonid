@@ -15,6 +15,7 @@ def init(
     parser: ArgumentParser,
     args: Namespace
 ) -> Logger:
+
     from brs_utils import create_logger
     from taxonid._version import __version__
 
