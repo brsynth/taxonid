@@ -51,6 +51,10 @@ def entry_point():
     taxon_id = get_taxon_id(org_name=args.org_name, logger=logger)
     print(taxon_id)
 
+    if args.output_file is not None:
+        with open(args.output_file, 'w') as f:
+            f.write(str(taxon_id))
+
 
 if __name__ == '__main__':
     entry_point()
