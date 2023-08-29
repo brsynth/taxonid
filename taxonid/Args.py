@@ -50,5 +50,12 @@ def add_arguments(parser: ArgumentParser) -> ArgumentParser:
         type=str,
         help='Name of the organism to get taxon ID'
     )
+    parser.add_argument(
+        '--output-file',
+        '-o',
+        type=str,
+        default=None,
+        help='Filename to save the taxon ID'
+    )
 
     return parser
