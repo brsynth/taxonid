@@ -5,7 +5,7 @@ from logging import (
 from Bio import Entrez
 
 
-def get_taxon_id(org_name: str, logger: Logger = getLogger(__name__)) -> int:
+def get_taxonid(org_name: str, logger: Logger = getLogger(__name__)) -> int:
     """Get taxon ID from NCBI taxonomy database
 
     :param org_name: Name of the organism

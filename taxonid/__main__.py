@@ -8,7 +8,7 @@ from colored import fg, attr
 from .Args import (
     build_args_parser,
 )
-from .taxonid import get_taxon_id
+from .taxonid import get_taxonid
 
 
 def init(
@@ -48,7 +48,7 @@ def entry_point():
 
     logger = init(parser, args)
 
-    taxon_id = get_taxon_id(org_name=args.org_name, logger=logger)
+    taxon_id = get_taxonid(org_name=args.org_name, logger=logger)
     print(taxon_id)
 
     if args.output_file is not None:
