@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.1](https://github.com/brsynth/taxonid/tree/0.1.1) (2023-10-24)
+
+[Full Changelog](https://github.com/brsynth/taxonid/compare/0.1.0...0.1.1)
+
 ## [0.1.0](https://github.com/brsynth/taxonid/tree/0.1.0) (2023-08-29)
 
 [Full Changelog](https://github.com/brsynth/taxonid/compare/0.0.1...0.1.0)
